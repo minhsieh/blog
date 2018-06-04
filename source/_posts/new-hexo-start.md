@@ -1,13 +1,8 @@
 title: Hexo部落格框架 我來了！
 date: 2018-01-10 14:18:41
-tags: []
+tags: [hexo, nodejs, npm, blog]
 categories: []
 ---
-title: Hexo部落格框架 我來了！
-date: 2018-01-10 14:18:41
-tags:
----
-
 安裝Hexo
 ---------
 我的環境是AWS EC2上的Ubuntu主機，首先要先安裝Nodejs和NPM
@@ -17,6 +12,8 @@ npm install hexo-cli -g
 ```
 
 這時候你就可以使用*hexo*這個命令去執行相關的動作。
+
+<!--more-->
 
 在你要開目錄的位置，使用 *hexo init* 建立一個新的專案
 
